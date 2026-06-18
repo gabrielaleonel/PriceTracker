@@ -278,8 +278,3 @@ SMTP_FROM="noreply@pricetracker.dev"
 CRON_SECRET="token-seguro-para-cron"
 ```
 
----
-
-## 📄 Licença | License
-
-MIT © 2024
