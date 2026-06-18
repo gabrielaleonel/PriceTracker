@@ -5,3 +5,10 @@ node_modules/** linguist-vendored=true
 *.lock linguist-generated=true
 tsconfig.tsbuildinfo linguist-generated=true
 next-env.d.ts linguist-generated=true
+
+# Explicit language detection for proper GitHub Linguist recognition
+prisma/schema.prisma linguist-language=Prisma
+*.mjs linguist-language=JavaScript
+Dockerfile linguist-language=Dockerfile
+*.json linguist-language=JSON
+eslint.config.mjs linguist-language=JavaScript
