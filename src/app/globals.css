@@ -133,6 +133,7 @@
   }
   html {
     @apply font-sans scroll-smooth;
+    font-family: var(--font-sans), "Sora", sans-serif;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading;

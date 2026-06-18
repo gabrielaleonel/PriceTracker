@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Inter, JetBrains_Mono } from "next/font/google"
+import { Sora, JetBrains_Mono } from "next/font/google"
 import { SessionProvider } from "next-auth/react"
 import { ThemeProvider } from "@/components/shared/theme-provider"
 import { LocaleProvider } from "@/components/shared/locale-provider"
@@ -7,14 +7,16 @@ import { Header } from "@/components/shared/header"
 import { Toaster } from "sonner"
 import "./globals.css"
 
-const inter = Inter({
+const sora = Sora({
   variable: "--font-sans",
   subsets: ["latin"],
+  display: "swap",
 })
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-mono",
   subsets: ["latin"],
+  display: "swap",
 })
 
 export const metadata: Metadata = {
@@ -30,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased`} suppressHydrationWarning>
+    <html lang="pt-BR" className={`${sora.variable} ${jetbrainsMono.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="min-h-full flex flex-col bg-background text-foreground transition-colors duration-300">
         <SessionProvider>
           <ThemeProvider defaultTheme="system" storageKey="theme">

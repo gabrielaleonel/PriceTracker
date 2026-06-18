@@ -12,11 +12,11 @@ export default function Home() {
         <div className="absolute left-1/3 top-80 h-48 w-48 rounded-full bg-secondary/20 blur-3xl" />
       </div>
 
-      <div className="relative mx-auto flex min-h-[calc(100vh-9rem)] max-w-6xl flex-col justify-center gap-12">
+      <div className="relative mx-auto flex min-h-[calc(100vh-9rem)] max-w-6xl flex-col justify-center gap-16">
         <section>
           <div className="grid gap-10 lg:grid-cols-[1.3fr_0.9fr] lg:items-center">
-            <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-muted/60 px-4 py-1.5 text-sm animate-badge-pulse">
+            <div className="space-y-8">
+              <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-muted/60 px-4 py-1.5 text-sm">
                 <Sparkles className="h-3.5 w-3.5 text-primary" />
                 <span className="font-semibold text-primary">Novo!</span>
                 <span className="text-muted-foreground">Compare rotas e configure alertas automaticamente</span>
@@ -50,7 +50,7 @@ export default function Home() {
 
             <div className="group relative">
               <div className="absolute -inset-1 rounded-[2rem] bg-gradient-to-br from-primary/20 via-primary/10 to-accent/20 opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-100" />
-              <div className="relative rounded-[2rem] border border-border/60 bg-card/80 p-6 shadow-2xl shadow-sky-500/5 backdrop-blur-xl sm:p-8 transition-all duration-300">
+              <div className="relative rounded-[2rem] border border-border/60 bg-card p-6 shadow-2xl shadow-sky-500/5 sm:p-8 transition-all duration-300">
                 <div className="absolute right-4 top-4 hidden sm:block">
                   <div className="flex items-center gap-1.5">
                     <span className="h-2 w-2 rounded-full bg-green-500/70" />
