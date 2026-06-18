@@ -4,8 +4,12 @@ import { hash } from "bcryptjs"
 const prisma = new PrismaClient()
 
 async function main() {
-  const adminEmail = process.env.ADMIN_EMAIL || "admin@pricetracker.dev"
-  const adminPassword = await hash(process.env.ADMIN_PASSWORD || "Admin@123", 12)
+  if (!process.env.ADMIN_EMAIL || !process.env.ADMIN_PASSWORD) {
+    throw new Error("ADMIN_EMAIL and ADMIN_PASSWORD must be set in environment")
+  }
+
+  const adminEmail = process.env.ADMIN_EMAIL
+  const adminPassword = await hash(process.env.ADMIN_PASSWORD, 12)
 
   const admin = await prisma.user.upsert({
     where: { email: adminEmail },
