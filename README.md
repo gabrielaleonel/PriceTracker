@@ -1,14 +1,14 @@
 # PriceTracker ✈️
 
-![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
-![NextAuth](https://img.shields.io/badge/NextAuth-v5-beta-green?logo=auth0)
-![Prisma](https://img.shields.io/badge/Prisma-5-2D3748?logo=prisma)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?logo=postgresql)
-![Tailwind](https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss)
+![Next.js](https://img.shields.io/badge/Next.js-16-000000)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6)
+![NextAuth](https://img.shields.io/badge/Auth-NextAuth_v5-22C55E)
+![Prisma](https://img.shields.io/badge/Prisma-5-2D3748)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1)
+![Tailwind](https://img.shields.io/badge/Tailwind-4-06B6D4)
 ![bcryptjs](https://img.shields.io/badge/bcryptjs-12_rounds-FF6B6B)
-![Zod](https://img.shields.io/badge/Zod-4-3068B7?logo=zod)
-![CodeQL](https://img.shields.io/badge/CodeQL-Passing-28A745?logo=github)
+![Zod](https://img.shields.io/badge/Zod-4-3068B7)
+![CodeQL](https://img.shields.io/badge/CodeQL-Passing-28A745)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
@@ -187,17 +187,17 @@ Transparência é parte da segurança. Abaixo, os gaps identificados que planeja
 
 | Categoria | Tecnologia | Badge |
 |-----------|-----------|-------|
-| **Framework** | Next.js 16 (App Router, Turbopack) | ![Next.js](https://img.shields.io/badge/-black?logo=next.js) |
-| **Linguagem** | TypeScript 5 | ![TypeScript](https://img.shields.io/badge/-blue?logo=typescript) |
-| **Autenticação** | NextAuth v5 (beta) + bcryptjs | ![Auth](https://img.shields.io/badge/-green?logo=auth0) |
-| **ORM** | Prisma 5 | ![Prisma](https://img.shields.io/badge/-2D3748?logo=prisma) |
-| **Banco de Dados** | PostgreSQL 15 | ![PostgreSQL](https://img.shields.io/badge/-4169E1?logo=postgresql) |
-| **Validação** | Zod 4 | ![Zod](https://img.shields.io/badge/-3068B7?logo=zod) |
-| **UI** | Tailwind CSS 4 + shadcn/ui + Lucide | ![Tailwind](https://img.shields.io/badge/-06B6D4?logo=tailwindcss) |
-| **Estado** | Zustand | ![Zustand](https://img.shields.io/badge/-orange) |
-| **Email** | Nodemailer (SMTP) | ![Email](https://img.shields.io/badge/-EA4335?logo=gmail) |
-| **Testes** | Vitest + Testing Library | ![Vitest](https://img.shields.io/badge/-6E9F18?logo=vitest) |
-| **CI/CD** | GitHub Actions + CodeQL + Dependabot + TruffleHog | ![GitHub Actions](https://img.shields.io/badge/-2088FF?logo=githubactions) |
+| **Framework** | Next.js 16 (App Router, Turbopack) | ![Next.js](https://img.shields.io/badge/Next.js-16-000000) |
+| **Linguagem** | TypeScript 5 | ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6) |
+| **Autenticação** | NextAuth v5 (beta) + bcryptjs | ![Auth](https://img.shields.io/badge/Auth-Secure-22C55E) |
+| **ORM** | Prisma 5 | ![Prisma](https://img.shields.io/badge/Prisma-5-2D3748) |
+| **Banco de Dados** | PostgreSQL 15 | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1) |
+| **Validação** | Zod 4 | ![Zod](https://img.shields.io/badge/Zod-4-3068B7) |
+| **UI** | Tailwind CSS 4 + shadcn/ui + Lucide | ![Tailwind](https://img.shields.io/badge/Tailwind-4-06B6D4) |
+| **Estado** | Zustand | ![Zustand](https://img.shields.io/badge/Zustand-5-F97316) |
+| **Email** | Nodemailer (SMTP) | ![Email](https://img.shields.io/badge/Email-SMTP-EA4335) |
+| **Testes** | Vitest + Testing Library | ![Vitest](https://img.shields.io/badge/Vitest-4-6E9F18) |
+| **CI/CD** | GitHub Actions + CodeQL + Dependabot + TruffleHog | ![CI/CD](https://img.shields.io/badge/CI%2FCD-Secure-2088FF) |
 
 ---
 
