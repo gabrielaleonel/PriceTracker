@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+*.json linguist-language=JSON
+*.yml linguist-language=YAML
+*.md linguist-language=Markdown
